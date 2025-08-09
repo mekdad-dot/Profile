@@ -1,6 +1,3 @@
-# Profile
-
-
 # 👋 Hi, I'm Mkdad Mahfoud
 
 📍 Dubai, UAE  
@@ -11,10 +8,10 @@
 
 ## 🧑‍💻 About Me
 I’m a **Back-End Software Engineer** with over 2 years of experience delivering secure, scalable, and high-performance backend systems.  
-My expertise includes **.NET Core, C#, Java Spring Boot, and Azure Cloud**, with strong knowledge in microservices, event-driven architecture, and clean architecture principles.
+My expertise includes **.NET Core, C#, Java Spring Boot**, and **Azure DevOps CI/CD**, with strong knowledge in clean architecture, event-driven systems, and performance optimization.
 
-I have contributed to **risk management**, **video conferencing automation**, and **judicial case management** systems.  
-Known for **code quality**, **system optimization**, and working on both on-premises and cloud-native solutions.
+I have contributed to **governance and compliance systems**, **video conferencing automation**, and **judicial case management**.  
+Known for **code quality**, **system optimization**, and the ability to work on both on-premises and cloud-native solutions.
 
 🎯 **Career Goal:** Become a **Software Architect** leading the design of enterprise-scale, high-availability systems.
 
@@ -25,7 +22,6 @@ Known for **code quality**, **system optimization**, and working on both on-prem
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![.NET Core](https://img.shields.io/badge/.NET%20Core-512BD4?logo=dotnet&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
@@ -37,34 +33,28 @@ Known for **code quality**, **system optimization**, and working on both on-prem
 
 ## 📂 Projects
 
-### 1️⃣ Risk Management System *(Java Spring Boot, On-Prem, Monolithic)*
+### 1️⃣ GRC Zero – Risk Management System *(Java Spring Boot, On-Prem, Monolithic)*
 **Overview:**  
-Enterprise-grade platform for registering risks, mapping controls, tracking mitigation, and generating governance/compliance reports.  
+Governance, Risk & Compliance platform for registering risks, mapping controls, tracking mitigation, managing incidents, and generating governance/compliance reports.  
+Built as a monolithic Spring Boot application deployed on-premises to meet strict security and operational requirements.
+
 **Role:** Backend developer & code reviewer.  
 **Highlights:**
-- Designed and implemented core modules.
-- Enforced clean architecture and maintainability.
-- Added RBAC, audit logging, and scheduling features.
-- Dockerized and deployed with Azure DevOps pipelines.
+- Designed and implemented core modules (Risk, Controls, Incidents, Reporting).
+- Added RBAC, audit logging, and schedulers.
+- Profiled and optimized performance for heavy reports.
+- Used Azure DevOps for CI/CD pipelines (on-prem deployment).
+- Reviewed code for maintainability and clean architecture compliance.
 
 **Impact:**  
 - Reduced manual reporting time by **40%**.  
-- Passed internal audit with **0 critical issues**.
+- Passed internal security audit with **0 critical issues**.  
+
+*Note: Source code is private due to company ownership.*
 
 ---
 
-### 2️⃣ GRC Zero *(Java Spring Boot, On-Prem, Monolithic)*
-**Overview:**  
-Governance, Risk, and Compliance platform for enterprise risk tracking and compliance reporting.  
-**Role:** Backend developer.  
-**Highlights:**
-- Developed backend modules for risk tracking and reporting.
-- Maintained consistent code standards.
-- Enhanced auditability and system stability.
-
----
-
-### 3️⃣ Teams Recording Bot *(Contributor — C#, .NET, Azure, Docker, Kubernetes)*
+### 2️⃣ Teams Recording Bot *(Contributor — C#, .NET, Azure, Docker, Kubernetes)*
 **Overview:**  
 Cloud-native bot for recording Microsoft Teams/ACS meetings, storing media safely, and performing post-processing.  
 **Role:** Backend contributor in a cross-functional team.  
@@ -76,7 +66,7 @@ Cloud-native bot for recording Microsoft Teams/ACS meetings, storing media safel
 
 ---
 
-### 4️⃣ Court Management System *(Contributor — ASP.NET Core, SQL Server, Redis, gRPC)*
+### 3️⃣ Court Management System *(Contributor — ASP.NET Core, SQL Server, Redis, gRPC)*
 **Overview:**  
 Judicial case management platform to streamline court operations.  
 **Role:** Backend contributor.  
